@@ -1,0 +1,7 @@
+[user]
+	name = Liuran Shen
+	email = 3114575233@qq.com
+[credential]
+	helper = store
+[init]
+	defaultBranch = main
