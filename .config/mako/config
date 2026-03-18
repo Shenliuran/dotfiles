@@ -1,0 +1,24 @@
+default-timeout=5000
+border-radius=5
+group-by=summary
+
+background-color=#1e1e2e
+progress-color=over #313244
+
+text-color=#cdd6f4
+text-alignment=center
+format=<b>%s</b>\n%b\n
+
+icons=1
+
+[urgency=critical]
+border-color=#fab387
+
+[urgency=normal]
+border-color=#2eb8b5
+
+[urgency=low]
+border-color=#2bba6e
+
+[grouped]
+format=<b>%s</b>\n%b
