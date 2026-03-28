@@ -165,7 +165,7 @@
   background-color: @bg-color;
   padding: 0.3rem 0.7rem;
   margin: 5px 0px;
-  margin-right: 7px;
+  margin-right: 5px;
   border-radius: 15px; /* This module is always rounded */
   /* box-shadow: 0 1px 3px rgba(153, 209, 219, 0.2); */
   box-shadow: 0 1px 3px @box-shadow-color;
