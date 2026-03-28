@@ -52,7 +52,7 @@
 
   "hyprland/submap": {
     "format": "📍 {}",
-    "max-length": 8,
+    "max-length": 20,
     "tooltip": false
   },
 
