@@ -1,0 +1,5 @@
+#!/usr/bin/env fish
+# wallust v3.5
+backend = "fastresize"
+color_space = "salience"
+palette = "saliencedarklow16"
