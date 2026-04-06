@@ -13,3 +13,6 @@ fuzzel.target = '~/.config/fuzzel/fuzzel.ini'
 
 fish.template = 'colors-fish.fish'
 fish.target = '~/.config/fish/conf.d/fish_frozen_theme.fish'
+
+kitty.template = 'colors-kitty.fish'
+kitty.target = '~/.config/kitty/themes/colors-wallust.conf'
