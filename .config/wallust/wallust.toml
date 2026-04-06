@@ -7,3 +7,6 @@ palette = "saliencedarklow16"
 [templates]
 hypr.template = 'colors-hypr.conf'
 hypr.target = '~/.config/hypr/themes/wallust.conf'
+
+fuzzel.template = 'fuzzel.ini'
+fuzzel.target = '~/.config/fuzzel/fuzzel.ini'
