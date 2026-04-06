@@ -1,0 +1,26 @@
+# Black background
+set recolor-lightcolor "#24272e"
+set recolor-darkcolor "#abb2bf"
+
+
+# Color
+set default-bg "rgba({{background | rgb}}, 0.75)" 
+set default-fg "{{color6}}" 
+set statusbar-bg "rgba({{color1 | rgb}}, 0.75)"  
+set statusbar-fg "{{color6}}" 
+set inputbar-bg "rgba({{color1 | rgb}}, 0.75)"  
+set inputbar-fg "{{color6}}" 
+set completion-bg "rgba({{background | rgb}}, 0.75)" 
+set completion-fg "{{color6}}" 
+set completion-highlight-bg "rgba({{color2 | rgb}}, 0.75)" 
+set completion-highlight-fg "rgba({{background | rgb}}, 0.75)" 
+set highlight-color "rgba({{color4 | rgb}},0.75)" # (with transparency)
+set highlight-active-color "rgba(229,192,123,0.75)"
+set notification-bg "rgba({{background | rgb}}, 0.75)" 
+set notification-fg "rgba({{color3 | rgb}}, 0.75)" 
+set notification-error-bg "rgba({{background | rgb}}, 0.75)" 
+set notification-error-fg "rgba({{color4 | rgb}}, 0.75)"
+set index-bg "rgba({{background | rgb}}, 0.75)" 
+set index-fg "{{color6}}" 
+set index-active-bg "rgba({{color2 | rgb}}, 0.75)" 
+set index-active-fg "rgba({{background | rgb}}, 0.75)" 
