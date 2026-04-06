@@ -1,4 +1,6 @@
 # Options
+include themes/wallust
+
 set font "Noto Sans Mono 10"
 set statusbar-home-tilde true
 set window-title-basename true
@@ -53,32 +55,8 @@ map [index] zm navigate_index collapse-all
 map [index] zr navigate_index expand-all
 
 # Black background
-set recolor-lightcolor "#24272e"
-set recolor-darkcolor "#abb2bf"
 set recolor true
 set recolor-keephue true
-
-# Colors
-set default-bg "#24272e"
-set default-fg "#abb2bf"
-set statusbar-bg "#282c34"
-set statusbar-fg "#abb2bf"
-set inputbar-bg "#282c34"
-set inputbar-fg "#abb2bf"
-set completion-bg "#24272e"
-set completion-fg "#abb2bf"
-set completion-highlight-bg "#61afef"
-set completion-highlight-fg "#24272e"
-set highlight-color "rgba(229,192,123,0.75)" # "#e5c07b" (with transparency)
-set highlight-active-color "rgba(229,192,123,0.75)"
-set notification-bg "#24272e"
-set notification-fg "#d19a66"
-set notification-error-bg "#24272e"
-set notification-error-fg "#e06c75"
-set index-bg "#24272e"
-set index-fg "#abb2bf"
-set index-active-bg "#61afef"
-set index-active-fg "#24272e"
 
 # Tabs (with tabbed and using `tabbed zathura --reparent`)
 # FIXME: Not working
