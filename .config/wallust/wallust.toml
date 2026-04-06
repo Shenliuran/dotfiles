@@ -16,3 +16,6 @@ fish.target = '~/.config/fish/conf.d/fish_frozen_theme.fish'
 
 kitty.template = 'colors-kitty.fish'
 kitty.target = '~/.config/kitty/themes/colors-wallust.conf'
+
+mako.template = 'mako-config'
+mako.target = '~/.config/mako/config'

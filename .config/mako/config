@@ -2,10 +2,10 @@ default-timeout=5000
 border-radius=10
 group-by=summary
 
-background-color=#1e1e2e
-progress-color=over #313244
+background-color=#020508
+progress-color=over #280503
 
-text-color=#cdd6f4
+text-color=#FFA34F
 text-alignment=center
 format=<b>%s</b>\n%b\n
 
