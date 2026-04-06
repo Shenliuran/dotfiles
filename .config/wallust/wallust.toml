@@ -10,3 +10,6 @@ hypr.target = '~/.config/hypr/themes/wallust.conf'
 
 fuzzel.template = 'fuzzel.ini'
 fuzzel.target = '~/.config/fuzzel/fuzzel.ini'
+
+fish.template = 'colors-fish.fish'
+fish.target = '~/.config/fish/conf.d/fish_frozen_theme.fish'
