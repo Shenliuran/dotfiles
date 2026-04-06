@@ -19,3 +19,14 @@ kitty.target = '~/.config/kitty/themes/colors-wallust.conf'
 
 mako.template = 'mako-config'
 mako.target = '~/.config/mako/config'
+
+waybar.template = 'colors-waybar.css'
+waybar.target = '~/.config/waybar/wallust-style.css'
+
+zathura.template = 'colors-zathura'
+zathura.target = '~/.config/zathura/themes/wallust'
+
+[hooks]
+mako = 'makoctl reload'
+waybar = 'pkill waybar || true && waybar > /dev/null 2>&1 &'
+notif = 'notify-send "New Scheme Generated!"'
