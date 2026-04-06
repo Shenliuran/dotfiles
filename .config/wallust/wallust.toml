@@ -3,3 +3,7 @@
 backend = "fastresize"
 color_space = "salience"
 palette = "saliencedarklow16"
+
+[templates]
+hypr.template = 'colors-hypr.conf'
+hypr.target = '~/.config/hypr/themes/wallust.conf'
