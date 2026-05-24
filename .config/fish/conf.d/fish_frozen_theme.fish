@@ -6,88 +6,88 @@
 # - 如果你使用浅色背景，可以将 color15 改为 color0 (黑色)，并相应调整其他颜色
 
 # 普通文本 (高对比度核心)
-set --global fish_color_normal F7C89E          # 亮白
+set --global fish_color_normal CAD8F4          # 亮白
 
 # 取消命令 (Ctrl+C)
-set --global fish_color_cancel 360704           # 亮红
+set --global fish_color_cancel 2C3B64           # 亮红
 
 # 命令本身 (如 ls, cd)
-set --global fish_color_command 5165A7         # 亮绿
+set --global fish_color_command 5A4645         # 亮绿
 
 # 注释 (通常在提示行中)
-set --global fish_color_comment CA630D          # 灰色
+set --global fish_color_comment 6680B4          # 灰色
 
 # 当前工作目录 (提示符中)
-set --global fish_color_cwd 878989             # 亮黄
+set --global fish_color_cwd 525F5C             # 亮黄
 
 set --global fish_color_cwd_root 
 
 # 管道/重定向等结束符
-set --global fish_color_end 878989             # 亮黄
+set --global fish_color_end 525F5C             # 亮黄
 
 # 错误信息
-set --global fish_color_error 360704             # 亮红
+set --global fish_color_error 2C3B64             # 亮红
 
 # 转义字符 (如 \n)
-set --global fish_color_escape A66C95           # 亮品红
+set --global fish_color_escape 977963           # 亮品红
 
 # 灰色文本 (如自动建议的灰色)
-set --global fish_color_gray CA630D              # 灰色
+set --global fish_color_gray 6680B4              # 灰色
 
 set --global fish_color_history_current 
 
 # 主机名 (提示符中)
-set --global fish_color_host 844836             # 亮蓝
+set --global fish_color_host 646B8B             # 亮蓝
 
 # 远程主机名
-set --global fish_color_host_remote 5165A7      # 亮绿
+set --global fish_color_host_remote 5A4645      # 亮绿
 
 # 关键字 (如 if, for)
-set --global fish_color_keyword A66C95          # 亮品红
+set --global fish_color_keyword 977963          # 亮品红
 
 # 再次确保普通文本 (防止重复定义)
-set --global fish_color_normal F7C89E          # 亮白
+set --global fish_color_normal CAD8F4          # 亮白
 
 # 运算符 (如 &&, |)
-set --global fish_color_operator A66C95         # 亮品红
+set --global fish_color_operator 977963         # 亮品红
 
 # 命令行选项 (如 -l, --help)
-set --global fish_color_option 5165A7           # 亮绿
+set --global fish_color_option 5A4645           # 亮绿
 
 # 参数 (如文件路径)
-set --global fish_color_param ED7D2B            # 亮青
+set --global fish_color_param A080AA            # 亮青
 
 # 引号内的字符串
-set --global fish_color_quote 5165A7            # 亮绿
+set --global fish_color_quote 5A4645            # 亮绿
 
 # 重定向符号 (>, <)
-set --global fish_color_redirection A66C95      # 亮品红
+set --global fish_color_redirection 977963      # 亮品红
 
 # 搜索匹配项 (高亮背景)
-set --global fish_color_search_match --background=CA630D  # 灰色背景
+set --global fish_color_search_match --background=6680B4  # 灰色背景
 
 # 选中的文本
-set --global fish_color_selection --background=CA630D     # 灰色背景
+set --global fish_color_selection --background=6680B4     # 灰色背景
 
 # 命令执行状态 (非零退出码)
-set --global fish_color_status 360704            # 亮红
+set --global fish_color_status 2C3B64            # 亮红
 
 # 用户名 (提示符中)
-set --global fish_color_user ED7D2B             # 亮青
+set --global fish_color_user A080AA             # 亮青
 
 set --global fish_color_valid_path 
 
 # 自动补全菜单中的补全项
-set --global fish_pager_color_completion F7C89E         # 亮白
+set --global fish_pager_color_completion CAD8F4         # 亮白
 
 # 自动补全菜单中的描述文字
-set --global fish_pager_color_description CA630D         # 灰色
+set --global fish_pager_color_description 6680B4         # 灰色
 
 # 自动补全菜单中匹配的前缀
-set --global fish_pager_color_prefix A66C95             # 亮品红
+set --global fish_pager_color_prefix 977963             # 亮品红
 
 # 进度条 (当补全列表较长时)
-set --global fish_pager_color_progress CA630D            # 灰色
+set --global fish_pager_color_progress 6680B4            # 灰色
 
 set --global fish_pager_color_selected_background 
 set --global fish_pager_color_selected_completion 
