@@ -82,7 +82,8 @@
     "on-click": "activate",
     "on-click-middle": "close",
     "ignore-list": [
-      "rofi"
+      "rofi",
+      "wechat"
     ]
   },
  

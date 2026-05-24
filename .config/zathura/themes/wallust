@@ -1,0 +1,26 @@
+# Black background
+set recolor-lightcolor "#24272e"
+set recolor-darkcolor "#abb2bf"
+
+
+# Color
+set default-bg "rgba(3,4,10, 0.75)" 
+set default-fg "#78607F" 
+set statusbar-bg "rgba(33,44,75, 0.75)"  
+set statusbar-fg "#78607F" 
+set inputbar-bg "rgba(33,44,75, 0.75)"  
+set inputbar-fg "#78607F" 
+set completion-bg "rgba(3,4,10, 0.75)" 
+set completion-fg "#78607F" 
+set completion-highlight-bg "rgba(68,53,52, 0.75)" 
+set completion-highlight-fg "rgba(3,4,10, 0.75)" 
+set highlight-color "rgba(75,80,104,0.75)" # (with transparency)
+set highlight-active-color "rgba(229,192,123,0.75)"
+set notification-bg "rgba(3,4,10, 0.75)" 
+set notification-fg "rgba(62,71,69, 0.75)" 
+set notification-error-bg "rgba(3,4,10, 0.75)" 
+set notification-error-fg "rgba(75,80,104, 0.75)"
+set index-bg "rgba(3,4,10, 0.75)" 
+set index-fg "#78607F" 
+set index-active-bg "rgba(68,53,52, 0.75)" 
+set index-active-fg "rgba(3,4,10, 0.75)" 
