@@ -3,6 +3,7 @@
 backend = "fastresize"
 color_space = "salience"
 palette = "saliencedarklow16"
+threshold = 11
 
 [templates]
 hypr.template = 'colors-hypr.conf'
@@ -25,6 +26,9 @@ waybar.target = '~/.config/waybar/wallust-style.css'
 
 zathura.template = 'colors-zathura'
 zathura.target = '~/.config/zathura/themes/wallust'
+
+lazygit.template = 'lazygit.yml'
+lazygit.target = '~/.config/lazygit/config.yml'
 
 [hooks]
 mako = 'makoctl reload'
