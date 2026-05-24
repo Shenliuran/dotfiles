@@ -1,0 +1,48 @@
+# Lazygit 主题配置 - 由 Wallust 动态生成
+gui:
+  theme:
+    # 明暗主题切换，根据你的终端背景调整 true/false
+    lightTheme: false
+
+    # 活动面板边框颜色 (高亮)
+    activeBorderColor:
+      - "{{foreground}}"   # 使用亮绿色，强调当前活动面板
+      - "bold"
+
+    # 非活动面板边框颜色 (柔和)
+    inactiveBorderColor:
+      - "{{color1}}"   # 使用灰色，降低存在感
+
+    # 搜索模式下的活动边框颜色
+    searchingActiveBorderColor:
+      - "{{color4}}"   # 使用亮蓝色，突出搜索状态
+      - "bold"
+
+    # 选项文本颜色 (如面板底部的操作提示)
+    optionsTextColor:
+      - "{{color6}}"   # 使用亮青色，清晰易读
+
+    # 当前选中行的背景色
+    selectedLineBgColor:
+      - "{{color6}}"   # 使用黑色，或根据需要调整
+
+    # 差异视图中，选中范围（如一段代码）的背景色
+    selectedRangeBgColor:
+      - "{{color6}}"   # 使用黑色，与选中行保持一致
+
+    # 标记为Cherry-pick的提交的背景色
+    cherryPickedCommitBgColor:
+      - "{{color6}}"   # 使用亮蓝色背景
+
+    # 标记为Cherry-pick的提交的前景色
+    cherryPickedCommitFgColor:
+      - "{{color7}}"   # 使用亮白色前景
+
+    # 未暂存变更的前景色 (high contrast)
+    unstagedChangesColor:
+      - "{{color2}}"   # 使用亮红色，强烈视觉提示
+    
+
+    # 默认前景色 (high contrast)
+    defaultFgColor:
+      - "{{color7}}"   # 使用亮白色，保证高可读性

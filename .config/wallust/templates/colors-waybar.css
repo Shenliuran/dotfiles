@@ -1,0 +1,13 @@
+@define-color bg-color rgba({{background | rgb}}, 0.4);
+@define-color window-bg-color rgba({{background | rgb}}, 0.8);
+@define-color hover-bg-color rgba({{color5 | rgb}}, 0.8);
+@define-color box-shadow-color rgba(0, 0, 0, 0.2);
+@define-color hover-color {{color15}};
+@define-color waybar-color {{foreground}};
+/* @define-color waybar-color #c6d0f5; */
+@define-color workspaces-button-color {{color1}};
+@define-color workspaces-button-active-color {{foreground}};
+@define-color workspaces-button-active-bg-color rgba({{background | rgb}}, 0.1);
+@define-color workspaces-button-active-box-shadow-color rgba({{color5 | rgb}}, 0.2);
+@define-color text-color #babbf1;
+@define-color border-color rgba({{color5 | rgb}}, 0.5);

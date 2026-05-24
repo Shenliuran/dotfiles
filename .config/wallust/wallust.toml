@@ -1,0 +1,36 @@
+#!/usr/bin/env fish
+# wallust v3.5
+backend = "fastresize"
+color_space = "salience"
+palette = "saliencedarklow16"
+threshold = 11
+
+[templates]
+hypr.template = 'colors-hypr.conf'
+hypr.target = '~/.config/hypr/themes/wallust.conf'
+
+fuzzel.template = 'fuzzel.ini'
+fuzzel.target = '~/.config/fuzzel/fuzzel.ini'
+
+fish.template = 'colors-fish.fish'
+fish.target = '~/.config/fish/conf.d/fish_frozen_theme.fish'
+
+kitty.template = 'colors-kitty.fish'
+kitty.target = '~/.config/kitty/themes/colors-wallust.conf'
+
+mako.template = 'mako-config'
+mako.target = '~/.config/mako/config'
+
+waybar.template = 'colors-waybar.css'
+waybar.target = '~/.config/waybar/wallust-style.css'
+
+zathura.template = 'colors-zathura'
+zathura.target = '~/.config/zathura/themes/wallust'
+
+lazygit.template = 'lazygit.yml'
+lazygit.target = '~/.config/lazygit/config.yml'
+
+[hooks]
+mako = 'makoctl reload'
+waybar = 'pkill waybar || true && waybar > /dev/null 2>&1 &'
+notif = 'notify-send "New Scheme Generated!"'
