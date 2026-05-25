@@ -104,7 +104,7 @@
   background-color: @hover-bg-color;
 }
 
-/* Simple Hover effect for clock module - BRIGHTER COLOR */
+/* Simple Hover effect for  module - BRIGHTER COLOR */
 /* #clock:hover { */
 /*   background-color: rgba(153, 209, 219, 0.1); */
 /* } */
@@ -303,7 +303,7 @@
 
 /* --- Tooltip Styles --- */
 tooltip {
-  background-color: @bg-color;
+  background-color: @tooltip-bg-color;
   color: #dddddd;
   padding: 5px 12px;
   margin: 5px 0px;

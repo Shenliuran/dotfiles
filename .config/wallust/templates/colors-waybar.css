@@ -1,4 +1,5 @@
 @define-color bg-color rgba({{background | rgb}}, 0.4);
+@define-color tooltip-bg-color rgba({{background | rgb}}, 0.8);
 @define-color window-bg-color rgba({{background | rgb}}, 0.8);
 @define-color hover-bg-color rgba({{color5 | rgb}}, 0.8);
 @define-color box-shadow-color rgba(0, 0, 0, 0.2);
