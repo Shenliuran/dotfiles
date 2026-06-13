@@ -7,7 +7,7 @@ threshold = 11
 
 [templates]
 hypr.template = 'colors-hypr.conf'
-hypr.target = '~/.config/hypr/themes/wallust.conf'
+hypr.target = '~/.config/hypr/themes/wallust.lua'
 
 fuzzel.template = 'fuzzel.ini'
 fuzzel.target = '~/.config/fuzzel/fuzzel.ini'

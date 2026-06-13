@@ -1,0 +1,44 @@
+hl.window_rule({
+  name = "suppress-maximize-events",
+  match = { class = "^$" },
+  suppress_event = "maximize"
+})
+
+hl.window_rule({
+  name = "fix-xwayland-drags",
+  match = {
+    class = "^$",
+    title = "^$",
+    xwayland = true,
+    float = true,
+    fullscreen = false,
+    pin = false
+  },
+  no_foucs = true
+})
+
+hl.window_rule({
+  name = "move-hyprland-run",
+  match = {
+    class = "hyprland-run"
+  },
+  move = "20 monitor_h-120",
+  float = true
+})
+
+hl.window_rule({
+  name = "copyq",
+  match = {
+    class = "com.github.hluk.copyq"
+  },
+  float = true
+})
+
+hl.window_rule({
+  name = "wechat",
+  match = {
+    clase = "wechat",
+    title = "朋友圈|图片和视频"
+  },
+  float = true
+})
